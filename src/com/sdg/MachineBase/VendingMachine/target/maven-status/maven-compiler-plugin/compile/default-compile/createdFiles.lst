@@ -1,0 +1,10 @@
+uk\admiral\vending\model\vendingmachine\stockmanager\IVendable.class
+uk\admiral\vending\model\vendingmachine\coinmanager\VendingCoinManager.class
+uk\admiral\vending\model\vendingmachine\coinmanager\Coin$1.class
+uk\admiral\vending\model\vendingmachine\coinmanager\Coin.class
+uk\admiral\vending\model\vendingmachine\VendingMachine.class
+uk\admiral\vending\model\vendingmachine\coinmanager\Coin$CoinTypes.class
+uk\admiral\vending\model\vendingmachine\VendingMachineException.class
+uk\admiral\vending\model\vendingmachine\stockmanager\VendingStockManager.class
+uk\admiral\vending\model\example\ExampleProduct.class
+uk\admiral\vending\model\vendingmachine\stockmanager\VendingMachineStockPosition.class
