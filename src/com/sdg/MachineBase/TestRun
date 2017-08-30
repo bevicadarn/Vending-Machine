@@ -1,0 +1,20 @@
+package com.sdg.MachineBase;
+
+public class TestRun {
+
+	public static void main(String[] args){
+		Coin bob = new Coin(CoinType.ONE_PENCE);
+		
+		
+		System.out.println(" Value is  " + bob.value);
+		
+		
+		
+		CoinCase alsoBob = new CoinCase();
+		
+		
+		alsoBob.addCoin(new Coin(CoinType.FIFTY_PENCE));
+		
+		
+	}
+}
