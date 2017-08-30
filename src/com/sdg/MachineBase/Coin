@@ -1,0 +1,18 @@
+package com.sdg.MachineBase;
+
+public class Coin {
+
+	public int value;
+	
+	
+	public Coin(CoinType coin) {
+		// TODO Auto-generated constructor stub
+		value = coin.getEnumValue();
+	}
+	
+	public int getValue() {
+		return value;
+	}
+	
+	
+}
