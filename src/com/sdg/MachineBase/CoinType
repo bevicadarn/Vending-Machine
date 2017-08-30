@@ -1,0 +1,26 @@
+package com.sdg.MachineBase;
+
+public enum CoinType {
+	ONE_PENCE(1),
+	TWO_PENCE(2),
+	FIVE_PENCE(5),
+	TEN_PENCE(10),
+	TWENTY_PENCE(20),
+	FIFTY_PENCE(50),
+	ONE_POUND(100),
+	TWO_POUNDS(200);
+	
+	
+	private final int enumValue;
+	CoinType(int amount) {
+		this.enumValue = amount;
+	}
+	
+	public int getEnumValue() {
+		return enumValue;
+	}
+	
+}
+
+
+
