@@ -10,6 +10,8 @@ public interface StockHandling {
 	
 	public void bankMoney();
 	
+	public void cancelPurchase();
+	
 	public void returnChange();
 	
 	public void vendProduct();
@@ -22,6 +24,5 @@ public interface StockHandling {
 	
 	public void removeProductSlot();
 	
-	public void cancelPurchase();
-	
+
 }
